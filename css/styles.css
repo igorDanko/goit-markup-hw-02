@@ -58,7 +58,7 @@ a {
   color: var(--color-pressed-state);
 }
 
-.link:active {
+.link:focus {
   color: var(--color-pressed-state);
 }
 
@@ -80,6 +80,7 @@ a {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--color-white-background);
 }
@@ -98,7 +99,7 @@ a {
   background-color: var(--color-pressed-state);
 }
 
-.hero-btn:active {
+.hero-btn:focus {
   background-color: var(--color-pressed-state);
 }
 
@@ -110,7 +111,11 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
+}
+
+.advantages-text {
 }
 
 /* Our Team */
@@ -122,12 +127,17 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: var(--color-dark);
 }
 
 .team-list {
+  background-color: var(--color-white-background);
+}
+
+.team-list-item {
   background-color: var(--color-white-background);
 }
 
@@ -139,6 +149,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
 }
 
@@ -148,6 +159,7 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
   color: var(--color-dark);
@@ -157,6 +169,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-dark);
 }
 
